@@ -1,10 +1,12 @@
 [project]
 name = "salt-vault"
 version = "0.2.0"
-description = "Add your description here"
+description = "a tool that can manage passwords"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "click>=8.1.8",
+]
 
 [tool.commitizen]
 name = "cz_conventional_commits"
